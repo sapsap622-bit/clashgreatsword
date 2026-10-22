@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "clashgreatsword"
+version = "1.0.0"
+displayName = "Clash Greatsword"
+description = '''
+Ataque cargado estilo Clash! (jsburg) para una espada específica, con empuñadura invertida (reverse grip).
+'''
+
+[[dependencies.clashgreatsword]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.clashgreatsword]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
